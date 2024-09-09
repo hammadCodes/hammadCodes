@@ -237,30 +237,21 @@
         t();
       })([]);
     </script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1MjbEQ81WMaB9l+"
-      crossorigin="anonymous"
-    />
-
+    
     <script src="/static/js/2.c505ee62.chunk.js"></script>
     <script src="/static/js/main.d6cfb59b.chunk.js"></script>
     <script>
       // Create a new element
-      var newElement = document.createElement("li");
-      newElement.className = "nav-item active";
-      newElement.innerHTML =
-        '<a class="nav-link" href="/resume">My Resume <span class="sr-only">(current)</span></a>';
+        var newElement = document.createElement('li');
+        newElement.className = 'nav-item active';
+        newElement.innerHTML = '<a class="nav-link" href="/resume">My Resume <span class="sr-only">(current)</span></a>';
 
-      // Select the active nav item
-      var activeNavItem = document.querySelector(".nav-item.active");
+        // Select the active nav item
+        var activeNavItem = document.querySelector('.nav-item.active');
 
-      // Append the new element after the active nav item
-      activeNavItem.parentNode.insertBefore(
-        newElement,
-        activeNavItem.nextSibling
-      );
+        // Append the new element after the active nav item
+        activeNavItem.parentNode.insertBefore(newElement, activeNavItem.nextSibling);
+
     </script>
   </body>
 </html>
