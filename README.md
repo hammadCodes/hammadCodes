@@ -60,7 +60,7 @@ I’m a **Senior Shopify Developer** with 5+ years of hands-on experience buildi
 ## 📬 Let’s Connect
 
 - 🌐 [hammadcodes.com](https://hammadcodes.com)
-- 🧑‍💼 [LinkedIn](https://www.linkedin.com/in/hammadcodes/)
+- 🧑‍💼 [linkedin.com/in/hammadcodes](https://www.linkedin.com/in/hammadcodes/)
 - 📧 [engr.hammad.uet@gmail.com](mailto:engr.hammad.uet@gmail.com)
 
 ---
