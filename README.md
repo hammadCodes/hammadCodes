@@ -1,4 +1,4 @@
-# 🛍️ Hammad Ul Hassan — Shopify Expert | Full Stack Developer
+# 🛍️ Hammad Ul Hassan — Shopify Expert | Full Stack Developer 
 
 [![Portfolio](https://img.shields.io/badge/Visit-My%20Website-blue?style=flat-square&logo=google-chrome)](https://hammadcodes.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hammadcodes/)
@@ -10,6 +10,7 @@
 
 I’m a **Senior Shopify Developer** with 5+ years of hands-on experience building, scaling, and optimizing **Shopify Plus** stores.
 
+✅ **5+ years** of experience
 ✅ **200+ Shopify projects** completed  
 ✅ **Top Rated Plus on Upwork**  
 ✅ Specialized in **custom Shopify themes**, **apps**, and **e-commerce integrations**  
