@@ -14,7 +14,7 @@ I’m a **Senior Shopify Developer** with 5+ years of hands-on experience buildi
 ✅ **200+ Shopify projects** completed  
 ✅ **Top Rated Plus on Upwork**  
 ✅ Specialized in **custom Shopify themes**, **apps**, and **e-commerce integrations**  
-✅ Trusted by global brands and agencies for **reliability**, **performance**, and **pixel-perfect UI/UX**
+✅ Trusted by global brands and agencies for **reliability**, **performance**, **accessibility**, and **pixel-perfect UI/UX**
 
 ---
 
