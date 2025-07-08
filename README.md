@@ -1,4 +1,4 @@
-# 🛍️ Hammad Ul Hassan — Shopify Expert | Full Stack Developer 
+# 🛍️ Hammad U. — Shopify Expert | Full Stack Developer 
 
 [![Portfolio](https://img.shields.io/badge/Visit-My%20Website-blue?style=flat-square&logo=google-chrome)](https://hammadcodes.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hammadcodes/)
