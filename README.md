@@ -1,6 +1,6 @@
 # 🛍️ Hammad U. — Shopify Expert | Full Stack Developer 
 
-[![Portfolio](https://img.shields.io/badge/Visit-My%20Website-blue?style=flat-square&logo=google-chrome)](https://hammadcodes.com)
+[![Portfolio](https://img.shields.io/badge/Visit-My%20Website-blue?style=flat-square&logo=google-chrome)](https://hammadCodes.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hammadcodes/)
 ![Upwork](https://img.shields.io/badge/Top--Rated%20Plus-Freelancer-brightgreen?style=flat-square&logo=upwork)
 
