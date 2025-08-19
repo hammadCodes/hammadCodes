@@ -37,7 +37,7 @@ I’m a **Senior Shopify Developer** with 5+ years of hands-on experience buildi
 
 ## 🔥 Current Role
 
-**💼 Senior Shopify Developer @ Fièra Cosmetics (Hybrid, Toronto)**  
+**💼 Senior Shopify Developer @ Fièra Cosmetics (Remote, Toronto)**  
 > Leading custom Shopify Plus development, third-party integrations, and performance-focused optimization for a major beauty brand.
 
 ---
