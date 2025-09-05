@@ -52,12 +52,6 @@ I’m a **Senior Shopify Developer** with 5+ years of hands-on experience buildi
 
 ---
 
-## 📊 GitHub Stats
-
-![Hammad's GitHub stats](https://github-readme-stats.vercel.app/api?username=hammadcodes&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hammadcodes&layout=compact&theme=tokyonight)
-
----
 
 ## 📬 Let’s Connect
 
