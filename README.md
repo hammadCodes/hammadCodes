@@ -44,7 +44,7 @@ I’m a **Senior Shopify Developer** with 5+ years of hands-on experience buildi
 
 ## 🏆 Highlights & Achievements
 
-- 🛒 Built high-converting Shopify experiences for **Fièra Cosmetics**, **EasyAMedia**, **Vital Media**, and more.
+- 🛒 Built high-converting Shopify experiences for **Fièra Cosmetics**, **EasyAMedia**, **Vital Media**, **Stem Commerce**, **Obtino**, **Intelligentmobiles GmbH**, **Conversion Alchemy**, **Elite Stem Media** and more.
 - 🛠️ Delivered complex Shopify apps tailored to unique client workflows.
 - 📈 Contributed to 40%+ revenue boosts during major promotional events through smart performance enhancements.
 - 🧩 Defined scalable architecture for enterprise-level Shopify Plus projects.
