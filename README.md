@@ -21,17 +21,17 @@ I’m a **Senior Shopify Developer** with 5+ years of hands-on experience buildi
 
 ## 🛠️ My Tech Toolbox
 
-**Shopify & E-commerce:**  
-`Shopify Plus`, `Liquid`, `Shopify APIs`, `Custom Apps`, `Headless Commerce`, `ThemeKit`
+### Shopify & E-commerce
+`Shopify Plus`, `Shopify Apps`, `Theme Development`, `Liquid`, `Shopify Storefront API`, `Shopify Admin API`, `App Bridge`, `Polaris`, `Headless Commerce`
 
-**Frontend:**  
-`React`, `JavaScript`, `Tailwind`, `HTML5`, `CSS3`, `Figma`, `Photoshop`
+### Frontend
+`React`, `Next.js`, `TypeScript`, `JavaScript`, `Tailwind`, `HTML5`, `CSS3`, `Figma`, `Photoshop`
 
-**Backend:**  
-`Node.js`, `Laravel`, `Python`, `PHP`, `C#`
+### Backend
+`Node.js`, `Laravel`, `Python`, `PHP`, `C#`, `GraphQL`, `REST APIs`
 
-**Dev Tools & Extras:**  
-`Git`, `CI/CD`, `REST APIs`, `GraphQL`, `Performance Optimization`, `A/B Testing`
+### Dev Tools & Infrastructure
+`Git`, `Docker`, `Vercel`, `CI/CD`, `Performance Optimization`, `A/B Testing`
 
 ---
 
