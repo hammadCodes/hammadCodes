@@ -26,7 +26,7 @@ export default function ResumePage() {
       </nav>
 
       <iframe
-        src="/hammad_resume.pdf"
+        src="https://docs.google.com/viewer?url=https://hammadcodes.com/hammad_resume.pdf&embedded=true"
         title="Hammad's Resume"
         className="flex-1 w-full border-0"
       />
