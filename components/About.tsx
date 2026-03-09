@@ -21,8 +21,8 @@ export default function About() {
 
           {/* Text */}
           <div className="text-center md:text-left">
-            <h2 className="mb-6 text-3xl font-bold uppercase tracking-wider text-accent sm:text-4xl">
-              About Hammad — Shopify Expert
+            <h2 className="mb-6 text-3xl font-bold uppercase tracking-wider text-foreground sm:text-4xl">
+              About <span className="text-accent">Hammad</span> — Shopify Expert
             </h2>
 
             <div className="space-y-4 text-base leading-relaxed text-foreground/70 sm:text-lg">

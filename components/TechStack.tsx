@@ -55,8 +55,8 @@ export default function TechStack() {
   return (
     <section id="techstack" className="bg-[#1a1a1a] py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <h2 className="mb-14 text-center text-3xl font-bold uppercase tracking-wider text-accent sm:text-4xl">
-          Tech Toolbox
+        <h2 className="mb-14 text-center text-3xl font-bold uppercase tracking-wider text-foreground sm:text-4xl">
+          Tech <span className="text-accent">Toolbox</span>
         </h2>
 
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">

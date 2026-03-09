@@ -31,8 +31,8 @@ export default function Services() {
   return (
     <section id="services" className="bg-[#0a0a0a] py-24 text-foreground">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <h2 className="mb-14 text-center text-3xl font-bold uppercase tracking-wider text-accent sm:text-4xl">
-          Web Development Services
+        <h2 className="mb-14 text-center text-3xl font-bold uppercase tracking-wider text-foreground sm:text-4xl">
+          Web Development <span className="text-accent">Services</span>
         </h2>
 
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
