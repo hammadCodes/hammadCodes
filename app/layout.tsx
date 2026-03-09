@@ -1,14 +1,21 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const SITE_URL = "https://hammadcodes.com";
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#0a0a0a",
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Hammad | Freelance Shopify Developer — Custom Themes, Apps & Headless Commerce",
+  title: "Hammad | Freelance Shopify Developer & Expert",
   description:
-    "Freelance Shopify developer with 6+ years of experience. Expert in custom Liquid theme development, Shopify app development, headless commerce with Next.js & Hydrogen, Shopify Plus, and store migrations. 200+ projects delivered. Top-rated on Upwork.",
+    "Freelance Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce, Shopify Plus & store migrations. 200+ projects. Top-rated on Upwork.",
   keywords: [
     "Shopify Expert",
     "Shopify Developer",
@@ -34,37 +41,36 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Hammad", url: SITE_URL }],
   creator: "Hammad",
+  formatDetection: { telephone: false },
   openGraph: {
     type: "website",
     url: SITE_URL,
-    title: "Hammad | Freelance Shopify Developer — Custom Themes, Apps & Headless Commerce",
+    locale: "en_US",
+    title: "Hammad | Freelance Shopify Developer & Expert",
     description:
-      "Freelance Shopify developer with 6+ years of experience. Custom Liquid themes, Shopify apps, headless commerce with Next.js & Hydrogen, and Shopify Plus. 200+ projects. Top-rated on Upwork.",
+      "Freelance Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce, Shopify Plus & store migrations. 200+ projects. Top-rated on Upwork.",
     siteName: "hammadCodes",
     images: [
       {
         url: "/me.jpg",
         width: 1200,
         height: 630,
-        alt: "Hammad — Freelance Shopify Developer",
+        alt: "Hammad Freelance Shopify Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hammad | Freelance Shopify Developer",
+    title: "Hammad | Freelance Shopify Developer & Expert",
     description:
-      "Freelance Shopify developer with 6+ years of experience. Custom Liquid themes, Shopify apps, headless commerce & Shopify Plus. 200+ projects. Top-rated on Upwork.",
+      "Freelance Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce & Shopify Plus. 200+ projects. Top-rated on Upwork.",
     creator: "@hammadCodes",
     images: ["/me.jpg"],
   },
   robots: {
     index: true,
     follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-    },
+    googleBot: { index: true, follow: true },
   },
   alternates: { canonical: SITE_URL },
 };
@@ -84,21 +90,24 @@ const personSchema = {
     "https://www.upwork.com/freelancers/~018d5cd0b1736fdedf",
   ],
   knowsAbout: [
-    "Shopify",
-    "Shopify Plus",
-    "Liquid",
-    "Shopify App Development",
-    "Headless Commerce",
-    "Next.js",
-    "React",
-    "Node.js",
-    "GraphQL",
-    "E-commerce",
-    "Shopify Migration",
-    "Store Optimization",
-    "Hydrogen",
-    "Oxygen",
-    "Shopify Storefront API",
+    "Shopify", "Shopify Plus", "Liquid", "Shopify App Development",
+    "Headless Commerce", "Next.js", "React", "Node.js", "GraphQL",
+    "E-commerce", "Shopify Migration", "Store Optimization",
+    "Hydrogen", "Oxygen", "Shopify Storefront API",
+  ],
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "hammadCodes",
+  url: SITE_URL,
+  logo: `${SITE_URL}/logo.png`,
+  description: "Freelance Shopify development services — custom themes, apps, headless commerce, and Shopify Plus solutions.",
+  sameAs: [
+    "https://www.linkedin.com/in/hammadCodes",
+    "https://github.com/hammadCodes",
+    "https://www.upwork.com/freelancers/~018d5cd0b1736fdedf",
   ],
 };
 
@@ -158,7 +167,7 @@ const reviewSchema = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5",
-    reviewCount: "4",
+    reviewCount: 4,
     bestRating: "5",
     worstRating: "1",
   },
@@ -253,7 +262,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+<link rel="dns-prefetch" href="//github-readme-streak-stats.herokuapp.com" />
+        <link rel="dns-prefetch" href="//github-contributions-api.jogruber.de" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
@@ -270,7 +282,10 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

@@ -43,7 +43,7 @@ export default function GitHub() {
         {/* Streak stats */}
         <div className="mb-6 flex justify-center overflow-hidden rounded-2xl border border-white/5 bg-[#0d0d0d]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={streakUrl} alt="GitHub Streak Stats" className="w-full max-w-lg" />
+          <img src={streakUrl} alt="GitHub Contribution Streak Statistics for hammadCodes" className="w-full max-w-lg" loading="lazy" decoding="async" />
         </div>
 
         {/* Contribution graph */}

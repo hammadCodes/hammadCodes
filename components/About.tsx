@@ -10,7 +10,7 @@ export default function About() {
             <div className="h-56 w-56 overflow-hidden rounded-full border-4 border-accent">
               <Image
                 src="/me.jpg"
-                alt="Hammad — Senior Freelance Shopify Developer"
+                alt="Hammad Senior Shopify Developer Profile Photo"
                 width={224}
                 height={224}
                 className="h-full w-full object-cover"
@@ -22,7 +22,7 @@ export default function About() {
           {/* Text */}
           <div className="text-center md:text-left">
             <h2 className="mb-6 text-3xl font-bold uppercase tracking-wider text-accent sm:text-4xl">
-              About
+              About Hammad — Shopify Expert
             </h2>
 
             <div className="space-y-4 text-base leading-relaxed text-foreground/70 sm:text-lg">
