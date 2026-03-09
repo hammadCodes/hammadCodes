@@ -41,7 +41,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="bg-[#0a0a0a] py-24">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
 
         {/* Header */}
         <div className="mb-14 text-center">
@@ -118,7 +118,7 @@ export default function Contact() {
           </div>
 
           {/* Right form */}
-          <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-8 lg:col-span-3">
+          <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 sm:p-8 lg:col-span-3">
             {submitted ? (
               <div className="flex h-full flex-col items-center justify-center py-16 text-center">
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-accent/10 text-accent">

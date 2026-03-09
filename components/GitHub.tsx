@@ -15,7 +15,7 @@ const stats = [
 export default function GitHub() {
   return (
     <section id="github" className="bg-[#0a0a0a] py-24">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
 
         {/* Header */}
         <div className="mb-14 text-center">

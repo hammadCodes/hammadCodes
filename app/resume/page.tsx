@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ResumePage() {
   return (
     <main className="flex min-h-screen flex-col bg-background">
-      <nav className="flex items-center justify-between border-b border-white/10 px-6 py-3">
+      <nav className="flex items-center justify-between border-b border-white/10 px-4 py-3 sm:px-6">
         <Link
           href="/"
           className="flex items-center gap-2 text-sm uppercase tracking-widest text-foreground/60 transition-colors hover:text-accent"

@@ -38,7 +38,7 @@ export default function Navbar() {
       }`}
       style={{ backgroundColor: "#0a0a0a" }}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
         {/* Logo */}
         <button
           onClick={scrollToTop}
@@ -86,7 +86,7 @@ export default function Navbar() {
         }`}
         style={{ backgroundColor: "#0a0a0a" }}
       >
-        <ul className="flex flex-col gap-4 px-6 pb-6">
+        <ul className="flex flex-col gap-4 px-4 pb-6 sm:px-6">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a

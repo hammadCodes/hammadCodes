@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <section id="about" className="bg-[#1a1a1a] py-24 text-foreground">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex flex-col items-center gap-12 md:flex-row md:items-start md:gap-16">
           {/* Photo */}
           <div className="shrink-0">
