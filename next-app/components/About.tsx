@@ -10,7 +10,7 @@ export default function About() {
             <div className="h-56 w-56 overflow-hidden rounded-full border-4 border-accent">
               <Image
                 src="/me.jpg"
-                alt="Hammad"
+                alt="Hammad — Senior Freelance Shopify Developer"
                 width={224}
                 height={224}
                 className="h-full w-full object-cover"

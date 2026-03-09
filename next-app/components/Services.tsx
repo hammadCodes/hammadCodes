@@ -45,7 +45,7 @@ export default function Services() {
                 <service.icon className="h-8 w-8 text-[#0a0a0a]" />
               </div>
 
-              <h3 className="mb-4 text-xl font-bold text-foreground">
+              <h3 className="mb-4 text-xl font-bold text-foreground" itemProp="name">
                 {service.title}
               </h3>
 
