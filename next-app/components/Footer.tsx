@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <p className="text-sm text-foreground/65">
-          Copyright 2026 hammadCodes | All Rights Reserved
+          © 2026 hammadCodes | All Rights Reserved
         </p>
       </div>
     </footer>
