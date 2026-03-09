@@ -1,64 +1,36 @@
-# 🛍️ Hammad U. — Shopify Expert | Full Stack Developer 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Getting Started
 
-[![Portfolio](https://img.shields.io/badge/Visit-My%20Website-blue?style=flat-square&logo=google-chrome)](https://hammadCodes.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hammadcodes/)
-[![Upwork](https://img.shields.io/badge/Top--Rated%20Plus-Freelancer-brightgreen?style=flat-square&logo=upwork)](https://www.upwork.com/freelancers/~018d5cd0b1736fdedf)
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 🧑‍💻 Who Am I?
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-I’m a **Senior Shopify Developer** with 5+ years of hands-on experience building, scaling, and optimizing **Shopify Plus** stores.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-✅ **5+ years** of experience  
-✅ **200+ Shopify projects** completed  
-✅ **Top Rated Plus on Upwork**  
-✅ Specialized in **custom Shopify themes**, **apps**, and **e-commerce integrations**  
-✅ Trusted by global brands and agencies for **reliability**, **performance**, **accessibility**, and **pixel-perfect UI/UX**
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-## 🛠️ My Tech Toolbox
+To learn more about Next.js, take a look at the following resources:
 
-### Shopify & E-commerce
-`Shopify Plus`, `Shopify Apps`, `Theme Development`, `Liquid`, `Shopify Storefront API`, `Shopify Admin API`, `App Bridge`, `Polaris`, `Headless Commerce`
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Frontend
-`React`, `Next.js`, `TypeScript`, `JavaScript`, `Tailwind`, `HTML5`, `CSS3`, `Figma`, `Photoshop`
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### Backend
-`Node.js`, `Laravel`, `Python`, `PHP`, `C#`, `GraphQL`, `REST APIs`
+## Deploy on Vercel
 
-### Dev Tools & Infrastructure
-`Git`, `Docker`, `Vercel`, `CI/CD`, `Performance Optimization`, `A/B Testing`
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
-
-## 🔥 Current Role
-
-**💼 Senior Shopify Developer @ Fièra Cosmetics (Remote, Toronto)**  
-> Leading custom Shopify Plus development, third-party integrations, and performance-focused optimization for a major beauty brand.
-
----
-
-## 🏆 Highlights & Achievements
-
-- 🛒 Built high-converting Shopify experiences for **Fièra Cosmetics**, **EasyAMedia**, **Vital Media**, **Stem Commerce**, **Obtino**, **Intelligentmobiles GmbH**, **Conversion Alchemy**, **Elite Stem Media** and more.
-- 🛠️ Delivered complex Shopify apps tailored to unique client workflows.
-- 📈 Contributed to 40%+ revenue boosts during major promotional events through smart performance enhancements.
-- 🧩 Defined scalable architecture for enterprise-level Shopify Plus projects.
-- 💬 Known for clean code, fast delivery, and top-tier communication.
-
----
-
-
-## 📬 Let’s Connect
-
-- 🌐 [https://hammadcodes.com](https://hammadCodes.com)
-- 🧑‍💼 [https://linkedin.com/in/hammadcodes](https://www.linkedin.com/in/hammadcodes/)
-- 📧 [engr.hammad.uet@gmail.com](mailto:engr.hammad.uet@gmail.com)
-
----
-
-> *“I don’t just build Shopify stores. I craft seamless e-commerce experiences that convert.”*
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
