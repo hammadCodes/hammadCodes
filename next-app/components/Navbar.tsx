@@ -50,7 +50,7 @@ export default function Navbar() {
             alt="Hammad — Shopify Expert"
             width={160}
             height={40}
-            className="h-auto w-16"
+            className="h-auto w-12"
             priority
           />
         </button>
@@ -61,7 +61,7 @@ export default function Navbar() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-sm uppercase tracking-widest text-foreground/80 transition-colors duration-200 hover:text-accent"
+                className="text-sm uppercase tracking-widest text-foreground/90 transition-colors duration-200 hover:text-accent"
               >
                 {link.label}
               </a>
@@ -92,7 +92,7 @@ export default function Navbar() {
               <a
                 href={link.href}
                 onClick={handleLinkClick}
-                className="block text-sm uppercase tracking-widest text-foreground/80 transition-colors duration-200 hover:text-accent"
+                className="block text-sm uppercase tracking-widest text-foreground/90 transition-colors duration-200 hover:text-accent"
               >
                 {link.label}
               </a>

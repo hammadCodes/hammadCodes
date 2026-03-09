@@ -46,10 +46,10 @@ export default function ContributionGraph() {
   return (
     <div className="rounded-2xl border border-white/5 bg-white/[0.06] p-6">
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-        <p className="text-xs text-foreground/50 sm:text-sm">
+        <p className="text-xs text-foreground/75 sm:text-sm">
           <span className="font-semibold text-accent">{total.toLocaleString()}</span> contributions in the last year
         </p>
-        <div className="hidden items-center gap-1.5 text-xs text-foreground/40 sm:flex">
+        <div className="hidden items-center gap-1.5 text-xs text-foreground/65 sm:flex">
           <span>Less</span>
           {LEVEL_COLORS.map((color, i) => (
             <div key={i} className="h-3 w-3 rounded-sm" style={{ backgroundColor: color }} />
@@ -59,7 +59,7 @@ export default function ContributionGraph() {
       </div>
 
       {days.length === 0 ? (
-        <div className="flex h-32 items-center justify-center text-sm text-foreground/30">
+        <div className="flex h-32 items-center justify-center text-sm text-foreground/90">
           Loading contributions...
         </div>
       ) : (
@@ -68,7 +68,7 @@ export default function ContributionGraph() {
             {/* Day labels */}
             <div className="flex shrink-0 flex-col justify-between pb-1 pr-1 pt-5">
               {dayLabels.map((label, i) => (
-                <span key={i} className="text-[10px] leading-[11px] text-foreground/30 h-[11px]">
+                <span key={i} className="text-[10px] leading-[11px] text-foreground/90 h-[11px]">
                   {label}
                 </span>
               ))}
@@ -85,7 +85,7 @@ export default function ContributionGraph() {
                   return (
                     <span
                       key={wi}
-                      className="absolute text-[10px] text-foreground/30 leading-none"
+                      className="absolute text-[10px] text-foreground/90 leading-none"
                       style={{ left: `${(wi / weeks.length) * 100}%` }}
                     >
                       {months[firstDay.getMonth()]}

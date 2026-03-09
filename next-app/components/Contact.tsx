@@ -45,11 +45,11 @@ export default function Contact() {
           <h2 className="mb-4 text-3xl font-bold uppercase tracking-wider text-accent sm:text-4xl">
             Get In Touch
           </h2>
-          <p className="mb-6 text-lg text-foreground/50">
+          <p className="mb-6 text-lg text-foreground/75">
             Have a Shopify project in mind? Fill out the form and I&apos;ll get
             back to you as soon as possible.
           </p>
-          <div className="mb-12 flex items-center justify-center gap-6">
+          <div className="mb-12 flex items-center justify-center gap-2">
             {socials.map((social) => (
               <a
                 key={social.label}
@@ -57,9 +57,9 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={social.label}
-                className="text-foreground/50 transition-colors duration-300 hover:text-accent"
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white/70 transition-all duration-300 hover:border-accent/40 hover:bg-accent/10 hover:text-accent"
               >
-                <social.icon className="h-6 w-6" strokeWidth={1.5} />
+                <social.icon className="h-5 w-5" strokeWidth={1.5} />
               </a>
             ))}
           </div>
@@ -69,7 +69,7 @@ export default function Contact() {
           {submitted ? (
             <div className="py-12 text-center">
               <p className="text-xl font-bold text-accent">Thank you!</p>
-              <p className="mt-2 text-foreground/60">
+              <p className="mt-2 text-foreground/90">
                 I&apos;ve received your message and will get back to you soon.
               </p>
             </div>
@@ -82,7 +82,7 @@ export default function Contact() {
                     name="name"
                     required
                     placeholder="Name *"
-                    className="w-full border-b border-white/10 bg-transparent px-2 py-3 text-accent outline-none placeholder:text-foreground/30 focus:border-accent transition-colors"
+                    className="w-full border-b border-white/10 bg-transparent px-2 py-3 text-accent outline-none placeholder:text-foreground/40 focus:border-accent transition-colors"
                   />
                 </div>
                 <div>
@@ -91,7 +91,7 @@ export default function Contact() {
                     name="email"
                     required
                     placeholder="Email *"
-                    className="w-full border-b border-white/10 bg-transparent px-2 py-3 text-accent outline-none placeholder:text-foreground/30 focus:border-accent transition-colors"
+                    className="w-full border-b border-white/10 bg-transparent px-2 py-3 text-accent outline-none placeholder:text-foreground/40 focus:border-accent transition-colors"
                   />
                 </div>
                 <div>
@@ -99,7 +99,7 @@ export default function Contact() {
                     type="tel"
                     name="phone"
                     placeholder="Phone"
-                    className="w-full border-b border-white/10 bg-transparent px-2 py-3 text-accent outline-none placeholder:text-foreground/30 focus:border-accent transition-colors"
+                    className="w-full border-b border-white/10 bg-transparent px-2 py-3 text-accent outline-none placeholder:text-foreground/40 focus:border-accent transition-colors"
                   />
                 </div>
                 <div>
@@ -108,7 +108,7 @@ export default function Contact() {
                     name="subject"
                     required
                     placeholder="Subject *"
-                    className="w-full border-b border-white/10 bg-transparent px-2 py-3 text-accent outline-none placeholder:text-foreground/30 focus:border-accent transition-colors"
+                    className="w-full border-b border-white/10 bg-transparent px-2 py-3 text-accent outline-none placeholder:text-foreground/40 focus:border-accent transition-colors"
                   />
                 </div>
               </div>
@@ -118,14 +118,14 @@ export default function Contact() {
                   name="message"
                   rows={5}
                   placeholder="Describe your project briefly..."
-                  className="w-full resize-none border-b border-white/10 bg-transparent px-2 py-3 text-accent outline-none placeholder:text-foreground/30 focus:border-accent transition-colors"
+                  className="w-full resize-none border-b border-white/10 bg-transparent px-2 py-3 text-accent outline-none placeholder:text-foreground/40 focus:border-accent transition-colors"
                 />
               </div>
 
               <button
                 type="submit"
                 disabled={loading}
-                className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-accent bg-transparent px-8 py-3 font-bold uppercase tracking-wider text-foreground transition-colors hover:bg-accent disabled:opacity-50"
+                className="flex w-full items-center justify-center gap-2 rounded-full bg-[#ef4035] px-10 py-4 text-base font-bold uppercase tracking-widest text-white transition-all hover:brightness-110 hover:shadow-lg hover:shadow-[#ef4035]/30 disabled:opacity-50"
               >
                 {loading ? (
                   <span className="inline-block h-5 w-5 animate-spin rounded-full border-2 border-foreground border-t-transparent" />

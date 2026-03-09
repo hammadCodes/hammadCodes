@@ -25,7 +25,7 @@ export default function About() {
               About
             </h2>
 
-            <div className="space-y-4 text-base leading-relaxed sm:text-lg">
+            <div className="space-y-4 text-base leading-relaxed text-foreground/70 sm:text-lg">
               <p>
                 Six years ago I wrote my first Shopify theme. Since then,
                 I&apos;ve built, broken, and rebuilt enough stores to know

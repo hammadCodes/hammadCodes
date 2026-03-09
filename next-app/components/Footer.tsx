@@ -23,7 +23,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#1a1a1a] px-6 py-12">
       <div className="mx-auto max-w-4xl text-center">
-        <div className="mb-6 flex items-center justify-center gap-6">
+        <div className="mb-6 flex items-center justify-center gap-2">
           {socials.map((social) => (
             <a
               key={social.label}
@@ -31,15 +31,15 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={social.label}
-              className="text-white transition-colors duration-300 hover:text-accent"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white/70 transition-all duration-300 hover:border-accent/40 hover:bg-accent/10 hover:text-accent"
             >
-              <social.icon className="h-6 w-6" />
+              <social.icon className="h-5 w-5" />
             </a>
           ))}
         </div>
 
-        <p className="text-sm text-foreground/40">
-          Copyright 2026 Hammad | All Rights Reserved
+        <p className="text-sm text-foreground/65">
+          Copyright 2026 hammadCodes | All Rights Reserved
         </p>
       </div>
     </footer>

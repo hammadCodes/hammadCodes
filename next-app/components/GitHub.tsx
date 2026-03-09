@@ -35,7 +35,7 @@ export default function GitHub() {
               className="rounded-2xl border border-white/5 bg-white/[0.07] py-6 text-center"
             >
               <p className="text-3xl font-bold text-accent">{s.value}</p>
-              <p className="mt-1 text-sm uppercase tracking-wider text-foreground/50">{s.label}</p>
+              <p className="mt-1 text-sm uppercase tracking-wider text-foreground/75">{s.label}</p>
             </div>
           ))}
         </div>
@@ -55,7 +55,7 @@ export default function GitHub() {
             href={`https://github.com/${USERNAME}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded-full border border-white/20 px-8 py-3 text-sm uppercase tracking-widest text-foreground/70 transition-all hover:border-accent hover:text-accent"
+            className="inline-block rounded-full border border-white/20 px-8 py-3 text-sm uppercase tracking-widest text-foreground/85 transition-all hover:border-accent hover:text-accent"
           >
             View GitHub Profile
           </a>

@@ -49,7 +49,7 @@ export default function Services() {
                 {service.title}
               </h3>
 
-              <p className="leading-relaxed text-foreground/70">
+              <p className="leading-relaxed text-foreground/60">
                 {service.description}
               </p>
             </div>

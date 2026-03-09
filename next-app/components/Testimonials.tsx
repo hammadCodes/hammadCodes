@@ -68,7 +68,7 @@ export default function Testimonials() {
                 <Quote className="mb-6 h-8 w-8 text-accent/30" />
 
                 {/* Quote text */}
-                <p className="mb-8 flex-1 text-base leading-relaxed text-foreground/60">
+                <p className="mb-8 flex-1 text-base leading-relaxed text-foreground/90">
                   {t.quote}
                 </p>
 

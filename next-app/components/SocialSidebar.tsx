@@ -2,24 +2,9 @@ import { Linkedin, Github } from "lucide-react";
 import XIcon from "./XIcon";
 
 const socials = [
-  {
-    label: "X",
-    href: "https://www.x.com/hammadCodes",
-    icon: XIcon,
-    rounded: "rounded-tl-lg",
-  },
-  {
-    label: "GitHub",
-    href: "https://github.com/hammadCodes",
-    icon: Github,
-    rounded: "",
-  },
-  {
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/in/hammadCodes",
-    icon: Linkedin,
-    rounded: "rounded-bl-lg",
-  },
+  { label: "X", href: "https://www.x.com/hammadCodes", icon: XIcon },
+  { label: "GitHub", href: "https://github.com/hammadCodes", icon: Github },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/hammadCodes", icon: Linkedin },
 ];
 
 export default function SocialSidebar() {
@@ -32,9 +17,9 @@ export default function SocialSidebar() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={social.label}
-          className={`flex items-center justify-center bg-white/5 p-2.5 text-white backdrop-blur-sm transition-all duration-300 hover:bg-accent/20 hover:text-accent hover:shadow-[0_0_12px_rgba(249,171,0,0.3)] ${social.rounded}`}
+          className="flex h-11 w-11 items-center justify-center border-b border-white/10 bg-[#111111] text-white/60 transition-all duration-300 hover:bg-[#1a1a1a] hover:text-accent"
         >
-          <social.icon className="h-[36px] w-[36px]" />
+          <social.icon className="h-5 w-5" />
         </a>
       ))}
     </div>
