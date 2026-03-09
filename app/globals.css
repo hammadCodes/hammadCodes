@@ -11,12 +11,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-sans);
+  overflow-x: hidden;
 }
 
 /* Swiper pagination dots */

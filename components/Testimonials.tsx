@@ -36,11 +36,11 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="bg-[#1a1a1a] py-24 overflow-hidden">
+    <section id="testimonials" className="bg-[#1a1a1a] py-12 overflow-hidden sm:py-18">
       <div className="mx-auto max-w-6xl px-6">
 
         {/* Header */}
-        <div className="mb-16 text-center">
+        <div className="mb-8 text-center sm:mb-16">
           <p className="mb-3 text-sm uppercase tracking-[0.3em] text-accent/70">
             What clients say
           </p>
