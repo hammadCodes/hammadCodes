@@ -42,7 +42,7 @@ export default function Services() {
               className="group flex flex-col items-center rounded-lg border-b-[3px] border-accent bg-[#222222] p-8 text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-accent/10"
             >
               <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-accent">
-                <service.icon className="h-8 w-8 text-[#0a0a0a]" />
+                <service.icon className="h-8 w-8 text-[#0a0a0a]" aria-hidden="true" />
               </div>
 
               <h3 className="mb-4 text-xl font-bold text-foreground" itemProp="name">

@@ -37,7 +37,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center px-6 text-center">
         <h1 className="text-5xl font-bold tracking-tight text-accent sm:text-6xl md:text-7xl lg:text-8xl">
-          Senior Shopify Expert
+          Senior Shopify Developer
         </h1>
 
         <div className="mt-5 h-10 sm:mt-6">
