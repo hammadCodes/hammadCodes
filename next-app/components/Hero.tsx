@@ -61,23 +61,25 @@ export default function Hero() {
 
         <a
           href="#contact"
-          className="mt-10 inline-block rounded-full border-2 border-accent-red px-10 py-3 text-sm uppercase tracking-widest text-foreground transition-all duration-300 hover:bg-accent-red hover:shadow-lg hover:shadow-accent-red/25 sm:mt-12"
+          className="mt-10 inline-block rounded-full border-2 border-accent px-10 py-3 text-sm uppercase tracking-widest text-foreground transition-all duration-300 hover:bg-accent hover:shadow-lg hover:shadow-accent/25 sm:mt-12"
         >
           Let&apos;s Talk
         </a>
 
         {/* Stats */}
         <div className="mt-16 flex flex-wrap items-center justify-center gap-10 border-t border-white/10 pt-10">
-          {[
-            { value: "6+", label: "Years Experience" },
-            { value: "200+", label: "Projects Delivered" },
-            { value: "Top Rated", label: "on Upwork" },
-          ].map((stat) => (
-            <div key={stat.label} className="text-center">
-              <p className="text-3xl font-bold text-accent sm:text-4xl">{stat.value}</p>
-              <p className="mt-1 text-sm uppercase tracking-widest text-foreground/50">{stat.label}</p>
-            </div>
-          ))}
+          <div className="text-center">
+            <p className="text-3xl font-bold text-accent sm:text-4xl">6+</p>
+            <p className="mt-1 text-sm uppercase tracking-widest text-foreground/50">Years Experience</p>
+          </div>
+          <div className="text-center">
+            <p className="text-3xl font-bold text-accent sm:text-4xl">200+</p>
+            <p className="mt-1 text-sm uppercase tracking-widest text-foreground/50">Projects Delivered</p>
+          </div>
+          <div className="text-center">
+            <p className="text-3xl font-bold text-accent sm:text-4xl">100%</p>
+            <p className="mt-1 text-sm uppercase tracking-widest text-foreground/50">Job Success Score</p>
+          </div>
         </div>
       </div>
     </section>

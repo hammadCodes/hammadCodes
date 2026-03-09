@@ -4,7 +4,7 @@ const USERNAME = "hammadCodes";
 
 const streakUrl = `https://github-readme-streak-stats.herokuapp.com/?user=${USERNAME}&hide_border=true&background=0d0d0d&stroke=f9ab00&ring=f9ab00&fire=ef4035&currStreakNum=f4f4f4&sideNums=f4f4f4&currStreakLabel=f9ab00&sideLabels=f4f4f4&dates=666666`;
 
-const activityUrl = `https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&bg_color=0d0d0d&color=f9ab00&line=f9ab00&point=ef4035&hide_border=true&area=true&area_color=f9ab00`;
+const activityUrl = `https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&bg_color=0d0d0d&color=f9ab00&line=f9ab00&point=f9ab00&hide_border=true&area=true&area_color=f9ab00`;
 
 const stats = [
   { value: "18", label: "Public Repos" },

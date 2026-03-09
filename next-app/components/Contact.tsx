@@ -45,10 +45,24 @@ export default function Contact() {
           <h2 className="mb-4 text-3xl font-bold uppercase tracking-wider text-accent sm:text-4xl">
             Get In Touch
           </h2>
-          <p className="mb-12 text-lg text-foreground/50">
+          <p className="mb-6 text-lg text-foreground/50">
             Have a Shopify project in mind? Fill out the form and I&apos;ll get
             back to you as soon as possible.
           </p>
+          <div className="mb-12 flex items-center justify-center gap-6">
+            {socials.map((social) => (
+              <a
+                key={social.label}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={social.label}
+                className="text-foreground/50 transition-colors duration-300 hover:text-accent"
+              >
+                <social.icon className="h-6 w-6" strokeWidth={1.5} />
+              </a>
+            ))}
+          </div>
         </div>
 
         <div className="rounded-[50px] border border-white/10 p-8 shadow-[0_0_20px_5px] shadow-accent/20 sm:p-12">
@@ -111,7 +125,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={loading}
-                className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-accent-red bg-transparent px-8 py-3 font-bold uppercase tracking-wider text-foreground transition-colors hover:bg-accent-red disabled:opacity-50"
+                className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-accent bg-transparent px-8 py-3 font-bold uppercase tracking-wider text-foreground transition-colors hover:bg-accent disabled:opacity-50"
               >
                 {loading ? (
                   <span className="inline-block h-5 w-5 animate-spin rounded-full border-2 border-foreground border-t-transparent" />
@@ -126,20 +140,6 @@ export default function Contact() {
           )}
         </div>
 
-        <div className="mt-12 flex items-center justify-center gap-8">
-          {socials.map((social) => (
-            <a
-              key={social.label}
-              href={social.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={social.label}
-              className="text-foreground transition-colors duration-300 hover:text-accent"
-            >
-              <social.icon className="h-10 w-10" strokeWidth={1.5} />
-            </a>
-          ))}
-        </div>
       </div>
     </section>
   );

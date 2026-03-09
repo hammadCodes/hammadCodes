@@ -21,7 +21,7 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="bg-background px-6 py-12">
+    <footer className="bg-[#1a1a1a] px-6 py-12">
       <div className="mx-auto max-w-4xl text-center">
         <div className="mb-6 flex items-center justify-center gap-6">
           {socials.map((social) => (

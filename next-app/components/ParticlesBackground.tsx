@@ -25,7 +25,7 @@ export default function ParticlesBackground() {
         fpsLimit: 60,
         particles: {
           number: { value: 80, density: { enable: true } },
-          color: { value: ["#f9ab00", "#ef4035"] },
+          color: { value: ["#f9ab00", "#f9ab00"] },
           opacity: { value: { min: 0.08, max: 0.25 } },
           size: { value: { min: 1, max: 2.5 } },
           links: {

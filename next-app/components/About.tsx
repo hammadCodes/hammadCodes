@@ -7,7 +7,7 @@ export default function About() {
         <div className="flex flex-col items-center gap-12 md:flex-row md:items-start md:gap-16">
           {/* Photo */}
           <div className="shrink-0">
-            <div className="h-56 w-56 overflow-hidden rounded-full border-4 border-accent-red">
+            <div className="h-56 w-56 overflow-hidden rounded-full border-4 border-accent">
               <Image
                 src="/me.jpg"
                 alt="Hammad"
