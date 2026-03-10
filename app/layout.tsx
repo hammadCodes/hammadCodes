@@ -20,12 +20,11 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Hammad | Shopify Developer & Expert",
+  title: "hammadCodes | Shopify Developer & Expert",
   description:
     "Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce, Shopify Plus & store migrations. 200+ projects. Top-rated on Upwork.",
   keywords: [
     "Shopify Expert",
-    "Shopify Developer",
     "Shopify Developer",
     "Shopify Developer for Hire",
     "Hire Shopify Expert",
@@ -53,7 +52,7 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE_URL,
     locale: "en_US",
-    title: "Hammad | Shopify Developer & Expert",
+    title: "hammadCodes | Shopify Developer & Expert",
     description:
       "Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce, Shopify Plus & store migrations. 200+ projects. Top-rated on Upwork.",
     siteName: "hammadCodes",
@@ -68,7 +67,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hammad | Shopify Developer & Expert",
+    title: "hammadCodes | Shopify Developer & Expert",
     description:
       "Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce & Shopify Plus. 200+ projects. Top-rated on Upwork.",
     creator: "@hammadCodes",
@@ -110,7 +109,7 @@ const organizationSchema = {
   name: "hammadCodes",
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
-  description: "Shopify development services — custom themes, apps, headless commerce, and Shopify Plus solutions.",
+  description: "Shopify theme development services — custom Liquid themes, Shopify 2.0, headless storefronts, Shopify apps, and Shopify Plus solutions.",
   sameAs: [
     "https://www.linkedin.com/in/hammadCodes",
     "https://github.com/hammadCodes",
