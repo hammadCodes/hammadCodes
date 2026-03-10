@@ -1,7 +1,4 @@
-"use client";
-
-import { TypeAnimation } from "react-type-animation";
-import ParticlesBackground from "./ParticlesBackground";
+import HeroTypeAnimation from "./HeroTypeAnimation";
 
 export default function Hero() {
   return (
@@ -31,9 +28,6 @@ export default function Hero() {
         }}
       />
 
-      {/* Particles */}
-      <ParticlesBackground />
-
       {/* Content */}
       <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center px-6 text-center">
         <h1 className="text-5xl font-bold tracking-tight text-accent sm:text-6xl md:text-7xl lg:text-8xl">
@@ -41,22 +35,7 @@ export default function Hero() {
         </h1>
 
         <div className="mt-5 h-10 sm:mt-6">
-          <TypeAnimation
-            sequence={[
-              "Custom Theme Development",
-              2000,
-              "Headless Shopify with Next.js",
-              2000,
-              "Shopify App Developer",
-              2000,
-              "Shopify Plus Specialist",
-              2000,
-            ]}
-            wrapper="span"
-            speed={50}
-            repeat={Infinity}
-            className="text-xl text-foreground sm:text-2xl md:text-3xl"
-          />
+          <HeroTypeAnimation />
         </div>
 
         <a

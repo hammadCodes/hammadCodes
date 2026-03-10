@@ -2,7 +2,14 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Geist } from "next/font/google";
 import "./globals.css";
+
+const geist = Geist({
+  subsets: ["latin"],
+  variable: "--font-geist",
+  display: "swap",
+});
 
 const SITE_URL = "https://hammadcodes.com";
 
@@ -261,7 +268,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={geist.variable}>
       <head>
 <link rel="dns-prefetch" href="//github-readme-streak-stats.herokuapp.com" />
         <link rel="dns-prefetch" href="//github-contributions-api.jogruber.de" />
