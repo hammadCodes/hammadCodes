@@ -147,7 +147,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="flex w-full items-center justify-center gap-2 rounded-xl bg-[#ef4035] py-4 text-base font-bold uppercase tracking-widest text-white transition-all hover:brightness-110 hover:shadow-lg hover:shadow-[#ef4035]/30 disabled:opacity-50"
+                  className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl bg-[#ef4035] py-4 text-base font-bold uppercase tracking-widest text-white transition-all hover:brightness-110 hover:shadow-lg hover:shadow-[#ef4035]/30 disabled:opacity-50"
                 >
                   {loading ? (
                     <span className="inline-block h-5 w-5 animate-spin rounded-full border-2 border-white border-t-transparent" />
