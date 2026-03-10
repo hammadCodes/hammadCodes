@@ -30,6 +30,9 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center px-6 text-center">
+        <p className="mb-4 text-lg font-medium uppercase tracking-[0.3em] text-foreground/60 sm:text-xl">
+          Hi, I&apos;m <span className="italic text-white">Hammad</span>
+        </p>
         <h1 className="text-5xl font-bold tracking-tight text-accent sm:text-6xl md:text-7xl lg:text-8xl">
           Senior Shopify Developer
         </h1>
