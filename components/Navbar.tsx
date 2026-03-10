@@ -47,7 +47,7 @@ export default function Navbar() {
         >
           <Image
             src="/logo.png"
-            alt="hammadCodes Logo Freelance Shopify Developer"
+            alt="hammadCodes Logo Shopify Developer"
             width={160}
             height={40}
             className="h-auto w-12"

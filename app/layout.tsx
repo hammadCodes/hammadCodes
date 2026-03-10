@@ -20,13 +20,13 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Hammad | Freelance Shopify Developer & Expert",
+  title: "Hammad | Shopify Developer & Expert",
   description:
-    "Freelance Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce, Shopify Plus & store migrations. 200+ projects. Top-rated on Upwork.",
+    "Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce, Shopify Plus & store migrations. 200+ projects. Top-rated on Upwork.",
   keywords: [
     "Shopify Expert",
     "Shopify Developer",
-    "Freelance Shopify Developer",
+    "Shopify Developer",
     "Shopify Developer for Hire",
     "Hire Shopify Expert",
     "Shopify Plus",
@@ -53,24 +53,24 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE_URL,
     locale: "en_US",
-    title: "Hammad | Freelance Shopify Developer & Expert",
+    title: "Hammad | Shopify Developer & Expert",
     description:
-      "Freelance Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce, Shopify Plus & store migrations. 200+ projects. Top-rated on Upwork.",
+      "Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce, Shopify Plus & store migrations. 200+ projects. Top-rated on Upwork.",
     siteName: "hammadCodes",
     images: [
       {
         url: "/me.jpg",
         width: 1200,
         height: 630,
-        alt: "Hammad Freelance Shopify Developer",
+        alt: "Hammad Shopify Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hammad | Freelance Shopify Developer & Expert",
+    title: "Hammad | Shopify Developer & Expert",
     description:
-      "Freelance Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce & Shopify Plus. 200+ projects. Top-rated on Upwork.",
+      "Shopify developer with 6+ years experience. Custom Liquid themes, Shopify apps, headless commerce & Shopify Plus. 200+ projects. Top-rated on Upwork.",
     creator: "@hammadCodes",
     images: ["/me.jpg"],
   },
@@ -87,9 +87,9 @@ const personSchema = {
   "@type": "Person",
   name: "Hammad",
   url: SITE_URL,
-  jobTitle: "Freelance Shopify Developer",
+  jobTitle: "Shopify Developer",
   description:
-    "Senior freelance Shopify developer specializing in custom Liquid theme development, Shopify app development, headless commerce with Next.js & Hydrogen, and Shopify Plus solutions with 6+ years of experience and 200+ projects delivered.",
+    "Senior Shopify developer specializing in custom Liquid theme development, Shopify app development, headless commerce with Next.js & Hydrogen, and Shopify Plus solutions with 6+ years of experience and 200+ projects delivered.",
   sameAs: [
     "https://www.linkedin.com/in/hammadCodes",
     "https://github.com/hammadCodes",
@@ -110,7 +110,7 @@ const organizationSchema = {
   name: "hammadCodes",
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
-  description: "Freelance Shopify development services — custom themes, apps, headless commerce, and Shopify Plus solutions.",
+  description: "Shopify development services — custom themes, apps, headless commerce, and Shopify Plus solutions.",
   sameAs: [
     "https://www.linkedin.com/in/hammadCodes",
     "https://github.com/hammadCodes",
