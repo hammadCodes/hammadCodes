@@ -46,7 +46,7 @@ export default function Hero() {
         </a>
 
         {/* Stats */}
-        <div className="mt-16 flex flex-wrap items-center justify-center gap-10 border-t border-white/10 pt-10">
+        <div className="mt-16 flex flex-wrap items-center justify-center gap-10 pt-10">
           <div className="text-center">
             <p className="text-3xl font-bold text-accent sm:text-4xl">6+</p>
             <p className="mt-1 text-sm uppercase tracking-widest text-foreground/75">Years Experience</p>
