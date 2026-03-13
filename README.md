@@ -9,13 +9,13 @@
 
 ## 🧑‍💻 Who Am I?
 
-I’m a **Senior Shopify Developer** with 6+ years of hands-on experience building, scaling, and optimizing **Shopify Plus** stores.
+Six years ago I wrote my first Shopify theme. Since then, I've built, broken, and rebuilt enough stores to know exactly what separates **good from great**.
 
-✅ **6+ years** of experience  
-✅ **200+ Shopify projects** completed  
-✅ **Top Rated Plus on Upwork**  
-✅ Specialized in **custom Shopify themes**, **apps**, and **e-commerce integrations**  
-✅ Trusted by global brands and agencies for **reliability**, **performance**, **accessibility**, and **pixel-perfect UI/UX**
+I'm Hammad — a **Senior Shopify Developer** specializing in **Shopify Plus**, custom **Liquid development**, headless commerce with **Hydrogen and Oxygen**, and front-end engineering that holds up under real traffic. My full-stack background — React, Node.js, GraphQL — means I handle complexity without outsourcing the hard parts.
+
+Across **200+ projects** and clients ranging from early-stage startups to established brands, I've learned that great development is only half the job. **Clear communication, realistic timelines, and zero-surprise delivery** are the other half.
+
+I build things I'd be proud to put my name on. If that's the kind of developer you're looking for — you're in the right place.
 
 ---
 
