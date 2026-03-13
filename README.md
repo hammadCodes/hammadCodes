@@ -1,4 +1,4 @@
-# 🛍️ Hammad U. — Shopify Expert | Full Stack Shopify Developer 
+# 🛍️ Hammad U. — Senior Shopify Developer | Shopify Expert
 
 
 [![Portfolio](https://img.shields.io/badge/Visit-My%20Website-blue?style=flat-square&logo=google-chrome)](https://hammadCodes.com)
