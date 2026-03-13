@@ -5,7 +5,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hammadcodes/)
 [![Upwork](https://img.shields.io/badge/Top--Rated%20Plus-Freelancer-brightgreen?style=flat-square&logo=upwork)](https://www.upwork.com/freelancers/~018d5cd0b1736fdedf)
 
-> *“Your store deserves better than a theme, app, and a prayer.”*
+> *“Your store deserves better than a theme, an app, and a prayer.”*
 ---
 
 ## 🧑‍💻 Who Am I?
