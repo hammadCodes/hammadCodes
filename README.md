@@ -5,9 +5,11 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hammadcodes/)
 [![Upwork](https://img.shields.io/badge/Top--Rated%20Plus-Freelancer-brightgreen?style=flat-square&logo=upwork)](https://www.upwork.com/freelancers/~018d5cd0b1736fdedf)
 
+> *“Your store deserves better than a theme, app, and a prayer.”*
 ---
 
 ## 🧑‍💻 Who Am I?
+
 
 Six years ago I wrote my first Shopify theme. Since then, I've built, broken, and rebuilt enough stores to know exactly what separates **good from great**.
 
@@ -61,4 +63,4 @@ I build things I'd be proud to put my name on. If that's the kind of developer y
 
 ---
 
-> *“I don’t just build Shopify stores. I craft seamless e-commerce experiences that convert.”*
+
