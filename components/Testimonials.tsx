@@ -10,6 +10,12 @@ import "swiper/css/pagination";
 const testimonials = [
   {
     avatar: "/avatar-1.png",
+    name: "Spencer P.",
+    quote:
+      "Hammad is a very talented developer and has a great skill set. His developments are always of the highest quality and he does a great job of paying attention to detail.",
+  },
+  {
+    avatar: "/avatar-1.png",
     name: "Patrice L.",
     quote:
       "Hammad was a true pleasure to work with in every sense of the word. He is not only a skilled Shopify expert but also a collaborator. He was always available, a clear communicator, and responsive to any questions I had throughout this project. I highly recommend Hammad for your Shopify project.",
