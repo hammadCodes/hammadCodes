@@ -26,18 +26,22 @@ I build things I'd be proud to put my name on. If that's the kind of developer y
 ## 🛠️ My Tech Toolbox
 
 ### Shopify & E-commerce
-`Shopify Plus`, `Shopify Apps`, `Theme Development`, `Liquid`, `Shopify Storefront API`, `Shopify Admin API`, `App Bridge`, `Polaris`, `Headless Commerce`
+`Shopify Plus`, `Shopify Apps`, `Theme Development`, `Liquid`, `Shopify Storefront API`, `Shopify Admin API`, `App Bridge`, `Polaris`, `Headless Commerce`, `Hydrogen`, `Oxygen`
 
 ### Frontend
 `React`, `Next.js`, `TypeScript`, `JavaScript`, `Tailwind`, `HTML5`, `CSS3`, `Figma`, `Photoshop`
 
 ### Backend
-`Node.js`, `Laravel`, `Python`, `PHP`, `C#`, `GraphQL`, `REST APIs`
+`Node.js`, `Laravel`, `Python`, `PHP`, `C#`, `GraphQL`, `REST APIs`, `Prisma`, `PostgreSQL`
+
+### Payments & Integrations
+`Stripe`, `PayPal`, `CheckoutChamp`, `Klaviyo`, `Consent Management`
+
+### Analytics & Tracking
+`Meta CAPI`, `GTM`, `GA4`, `PostHog`, `TripleWhale`, `Everflow`
 
 ### Dev Tools & Infrastructure
 `Git`, `Docker`, `Vercel`, `CI/CD`, `Performance Optimization`, `A/B Testing`
-
----
 
 ## 🔥 Current Role
 
