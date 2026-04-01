@@ -13,7 +13,7 @@
 
 Six years ago I wrote my first Shopify theme. Since then, I've built, broken, and rebuilt enough stores to know exactly what separates **good from great**.
 
-I'm Hammad — a **Senior Shopify Developer** specializing in **Shopify Plus**, custom **Liquid development**, headless commerce with **Hydrogen and Oxygen**, and front-end engineering that holds up under real traffic. My full-stack background — React, Node.js, GraphQL — means I handle complexity without outsourcing the hard parts.
+I'm Hammad — a **Senior Shopify Developer** specializing in **Shopify Plus**, custom **Liquid development**, headless commerce with **Hydrogen and Oxygen**, and front-end engineering that holds up under real traffic. Full-stack background — React, TypeScript, Node.js, GraphQL, Prisma, PostgreSQL — means I handle complexity without outsourcing the hard parts. From multi-platform tracking pipelines (Meta CAPI, GTM/GA4, PostHog, TripleWhale, Everflow and more) to custom payment funnels (CheckoutChamp, PayPal and more), Klaviyo integrations, and consent management — I build the full stack, not just the storefront.
 
 Across **200+ projects** and clients ranging from early-stage startups to established brands, I've learned that great development is only half the job. **Clear communication, realistic timelines, and zero-surprise delivery** are the other half.
 
