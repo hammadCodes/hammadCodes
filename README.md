@@ -46,7 +46,7 @@ I build things I'd be proud to put my name on. If that's the kind of developer y
 ## 🔥 Current Role
 
 **💼 Senior Shopify Developer @ Fièra Cosmetics (Remote, Toronto)**  
-> Leading custom Shopify Plus development, third-party integrations, and performance-focused optimization for a major beauty brand.
+> Leading custom Shopify Plus development, Shopify headless, third-party integrations, and performance-focused optimization for a major beauty brand.
 
 ---
 
