@@ -17,7 +17,7 @@ I'm Hammad — a **Senior Shopify Developer** specializing in **Shopify Plus**, 
 
 From multi-platform tracking pipelines **(Meta CAPI, GTM/GA4, PostHog, TripleWhale, Everflow and more)** to custom payment funnels **(CheckoutChamp, PayPal, Stripe and more), Klaviyo integrations, and consent management** — I build the full stack, not just the storefront.
 
-Across **200+ projects** and clients ranging from early-stage startups to established brands, I've learned that great development is only half the job. **Clear communication, realistic timelines, and zero-surprise delivery** are the other half.
+Across **200+ projects** and companies ranging from early-stage startups to established brands, I've learned that great development is only half the job. **Clear communication, realistic timelines, and zero-surprise delivery** are the other half.
 
 I build things I'd be proud to put my name on. If that's the kind of developer you're looking for — you're in the right place.
 
